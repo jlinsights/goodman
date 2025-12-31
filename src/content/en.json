@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "headline": "Your Strategic Partner in Korea & Beyond",
+    "subheadline": "Connecting Global Trade with Velocity, Trust, and Expertise",
+    "description": "As members of WCA, MPL, and EAN networks, GOODMAN GLS delivers time-critical logistics solutions with unmatched reliability across air, ocean, and project cargo.",
+    "cta_primary": "Get a Quote",
+    "cta_secondary": "Become a Partner"
+  },
+  "trust": {
+    "title": "Trusted Global Networks",
+    "memberships": {
+      "wca": "WCA Member - World's Leading Network",
+      "mpl": "MPL Member - Premium Partners",
+      "ean": "EAN Member - Excellence Network",
+      "iata": "IATA Certified Forwarder"
+    }
+  },
+  "services": {
+    "title": "Specialized Logistics Solutions",
+    "subtitle": "Time-Critical. Mission-Critical. Trust GOODMAN.",
+    "air": {
+      "name": "Air Freight",
+      "tagline": "When Every Minute Counts",
+      "description": "Express and time-critical air cargo solutions with GSA/CSA expertise for major carriers."
+    },
+    "ocean": {
+      "name": "Ocean Freight",
+      "tagline": "Global Reach, Local Expertise",
+      "description": "Full container load (FCL) and less than container load (LCL) services worldwide."
+    },
+    "project": {
+      "name": "Project Cargo",
+      "tagline": "Complex Solutions Made Simple",
+      "description": "Specialized handling for oversized, heavy, and high-value project shipments."
+    }
+  },
+  "gsa": {
+    "title": "GSA/CSA Expertise",
+    "subtitle": "Your Gateway to Korean Market",
+    "description": "As General Sales Agent and Cargo Sales Agent for multiple airlines, we provide unparalleled access to capacity and competitive rates on key routes.",
+    "cta": "View Our Airline Partners"
+  },
+  "partner": {
+    "title": "Partner Hub",
+    "subtitle": "Exclusive Resources for Our Global Network",
+    "agent_zone": "Agent Zone - Registration & Tariffs",
+    "market_insights": "Market Insights - Korea Trade Intelligence",
+    "cta": "Access Partner Portal"
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "24/7 Support for Your Logistics Needs",
+    "office_hours": "Office Hours: Mon-Fri 9:00-18:00 KST",
+    "after_hours": "Emergency Contact: Available via WhatsApp/WeChat",
+    "form_title": "Quick Inquiry",
+    "form_submit": "Send Message"
+  },
+  "footer": {
+    "tagline": "GOODMAN GLS - Your Strategic Partner in Korea & Beyond",
+    "copyright": "© 2025 GOODMAN Global Logistics Service. All rights reserved.",
+    "address": "Seoul, Republic of Korea"
+  },
+  "nav": {
+    "network": "Network & Solutions",
+    "services": "Services",
+    "partner_hub": "Partner Hub",
+    "company": "Company",
+    "contact": "Contact"
+  },
+  "quicktools": {
+    "rate_inquiry": "Rate Inquiry",
+    "track_trace": "Track & Trace",
+    "partner_login": "Partner Login"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "홈",
+    "networkSolutions": "네트워크 & 솔루션",
+    "services": "서비스",
+    "partnerHub": "파트너 허브",
+    "company": "회사소개",
+    "contact": "연락처"
+  },
+  "hero": {
+    "headline": "대한민국을 넘어, 전 세계를 연결하는 전략적 파트너",
+    "subheadline": "신속성, 신뢰, 전문성으로 글로벌 무역을 연결합니다",
+    "description": "WCA, MPL, EAN 네트워크의 회원사로서, GOODMAN GLS는 항공, 해상, 프로젝트 화물 전반에 걸쳐 타의 추종을 불허하는 신뢰성으로 시간에 민감한 물류 솔루션을 제공합니다.",
+    "ctaPrimary": "견적 요청",
+    "ctaSecondary": "파트너 되기",
+    "stats": {
+      "years": "년 경력",
+      "countries": "개 국가 서비스",
+      "shipments": "건 연간 운송"
+    }
+  },
+  "trust": {
+    "title": "신뢰할 수 있는 글로벌 네트워크",
+    "subtitle": "공인 회원:",
+    "wca": "세계 화물 연합",
+    "mpl": "MPL 네트워크",
+    "ean": "우수 물류 네트워크",
+    "iata": "IATA 공인 대리점"
+  },
+  "services": {
+    "title": "전문 물류 솔루션",
+    "subtitle": "시간이 중요한 화물, 미션 크리티컬한 프로젝트 - 굿맨과 함께",
+    "air": {
+      "name": "항공 운송",
+      "tagline": "1분 1초가 중요할 때",
+      "description": "주요 항공사의 GSA/CSA 전문성을 바탕으로 한 특급 및 시간에 민감한 항공 화물 솔루션."
+    },
+    "ocean": {
+      "name": "해상 운송",
+      "tagline": "글로벌 도달 범위, 로컬 전문성",
+      "description": "전 세계 FCL(풀 컨테이너) 및 LCL(혼적 화물) 서비스."
+    },
+    "project": {
+      "name": "프로젝트 카고",
+      "tagline": "복잡한 솔루션을 간단하게",
+      "description": "초대형, 중량물 및 고가 프로젝트 화물을 위한 전문 핸들링."
+    },
+    "learnMore": "자세히 보기"
+  },
+  "gsa": {
+    "title": "GSA/CSA 전문성",
+    "subtitle": "한국 시장으로의 관문",
+    "description": "여러 항공사의 총판 대리점 및 화물 판매 대리점으로서, 주요 노선에서 탁월한 캐파시티 접근성과 경쟁력 있는 요금을 제공합니다.",
+    "routes": {
+      "la": "서울-LA",
+      "nyc": "서울-뉴욕",
+      "frankfurt": "서울-프랑크푸르트",
+      "singapore": "서울-싱가포르",
+      "dailyService": "매일 운항"
+    },
+    "cta": "항공사 파트너 보기"
+  },
+  "partnerHub": {
+    "title": "파트너 허브",
+    "subtitle": "글로벌 네트워크를 위한 전용 리소스",
+    "agentZone": "에이전트 존 - 파트너 등록 및 요금 접근",
+    "marketInsights": "시장 인사이트 - 한국 무역 정보 보고서",
+    "dedicatedManagement": "전담 계정 관리",
+    "cta": "파트너 포털 접속"
+  },
+  "contact": {
+    "title": "연결하기",
+    "subtitle": "24시간 물류 지원",
+    "getInTouch": "문의하기",
+    "office": "오피스 위치",
+    "officeAddress": "대한민국 서울",
+    "email": "이메일",
+    "emailAddress": "contact@goodmangls.com",
+    "officeHours": "영업 시간",
+    "hours": "월-금 9:00-18:00 KST",
+    "emergency": "긴급 연락: WhatsApp/WeChat 24시간 가능",
+    "quickInquiry": "빠른 문의",
+    "namePlaceholder": "성함",
+    "emailPlaceholder": "이메일",
+    "messagePlaceholder": "메시지",
+    "sendMessage": "메시지 보내기"
+  },
+  "footer": {
+    "tagline": "GOODMAN GLS - 대한민국을 넘어, 전 세계를 연결하는 전략적 파트너",
+    "description": "2004년부터 신속성, 신뢰, 전문성으로 글로벌 무역을 연결합니다.",
+    "quickLinks": "빠른 링크",
+    "memberOf": "회원:",
+    "copyright": "© 2025 GOODMAN 글로벌 물류 서비스. All rights reserved."
+  },
+  "quickTools": {
+    "rateInquiry": "견적 요청",
+    "trackTrace": "화물 추적",
+    "partnerLogin": "파트너 로그인",
+    "comingSoon": "준비 중",
+    "support": "24시간 지원"
+  },
+  "floatingConnect": {
+    "title": "연결하기",
+    "businessHours": "사업 개발팀",
+    "availability": "월-금 9:00-18:00 KST 가능",
+    "whatsapp": "왓츠앱",
+    "wechat": "위챗",
+    "telegram": "텔레그램",
+    "kakao": "카카오톡",
+    "email": "이메일"
+  },
+  "rateInquiryModal": {
+    "title": "견적 요청",
+    "serviceType": "서비스 유형",
+    "shipmentType": "운송 유형",
+    "origin": "출발지",
+    "destination": "도착지",
+    "cargoDetails": "화물 세부사항",
+    "cargoPlaceholder": "무게, 치수, 품목...",
+    "yourName": "성함",
+    "company": "회사명",
+    "phone": "전화번호 (국가번호 포함)",
+    "submitInquiry": "문의 제출",
+    "airFreight": "항공 운송",
+    "oceanFreight": "해상 운송",
+    "projectCargo": "프로젝트 카고",
+    "import": "수입",
+    "export": "수출",
+    "cityCountryPlaceholder": "도시, 국가"
+  },
+  "common": {
+    "readMore": "더 보기",
+    "downloadPdf": "PDF 다운로드",
+    "subscribe": "구독하기",
+    "applyNow": "지금 신청",
+    "requestAccess": "요율 접근 요청",
+    "contactTeam": "파트너십팀 연락"
+  }
+}
