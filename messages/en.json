@@ -83,7 +83,10 @@
     "namePlaceholder": "Your Name",
     "emailPlaceholder": "Email",
     "messagePlaceholder": "Your Message",
-    "sendMessage": "Send Message"
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "✓ Message sent successfully! We'll get back to you soon.",
+    "errorMessage": "✗ Failed to send message. Please try again or contact us directly."
   },
   "footer": {
     "tagline": "GOODMAN GLS - Your Strategic Partner in Korea & Beyond",

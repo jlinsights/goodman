@@ -89,7 +89,7 @@ export default function NetworkSolutionsPage() {
           </div>
 
           <div className="max-w-4xl mx-auto mb-12">
-            <div className="card" style={{ background: 'linear-gradient(135deg, #0A2463 0%, #1E3A8A 100%)' }} className="text-white">
+            <div className="card text-white" style={{ background: 'linear-gradient(135deg, #0A2463 0%, #1E3A8A 100%)' }}>
               <h3 className="text-2xl font-bold mb-6 text-white">What is GSA/CSA?</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>

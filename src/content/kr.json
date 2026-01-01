@@ -3,8 +3,16 @@
     "headline": "대한민국을 넘어, 전 세계를 연결하는 전략적 파트너",
     "subheadline": "신속성, 신뢰, 전문성으로 글로벌 무역을 연결합니다",
     "description": "WCA, MPL, EAN 네트워크의 회원사로서, GOODMAN GLS는 항공, 해상, 프로젝트 화물 전반에 걸쳐 타의 추종을 불허하는 신뢰성으로 시간에 민감한 물류 솔루션을 제공합니다.",
-    "cta_primary": "견적 요청",
-    "cta_secondary": "파트너 되기"
+    "ctaPrimary": "견적 요청",
+    "ctaSecondary": "파트너 되기",
+    "stats": {
+      "years": "20+",
+      "yearsLabel": "년간의 우수성",
+      "countries": "50+",
+      "countriesLabel": "글로벌 네트워크",
+      "shipments": "10K+",
+      "shipmentsLabel": "연간 화물 처리"
+    }
   },
   "trust": {
     "title": "신뢰할 수 있는 글로벌 네트워크",
@@ -50,10 +58,19 @@
   "contact": {
     "title": "연결하기",
     "subtitle": "24시간 물류 지원",
-    "office_hours": "영업 시간: 월-금 9:00-18:00 KST",
-    "after_hours": "긴급 연락: WhatsApp/WeChat 가능",
-    "form_title": "빠른 문의",
-    "form_submit": "메시지 보내기"
+    "getInTouch": "연락 정보",
+    "office": "본사",
+    "officeAddress": "서울특별시 강남구",
+    "email": "이메일",
+    "emailAddress": "contact@goodman-gls.com",
+    "officeHours": "영업 시간",
+    "hours": "월-금 9:00-18:00 KST",
+    "emergency": "긴급 연락: WhatsApp/WeChat 가능",
+    "quickInquiry": "빠른 문의",
+    "namePlaceholder": "성함을 입력해주세요",
+    "emailPlaceholder": "이메일 주소를 입력해주세요",
+    "messagePlaceholder": "문의 내용을 입력해주세요",
+    "sendMessage": "메시지 보내기"
   },
   "footer": {
     "tagline": "GOODMAN GLS - 대한민국을 넘어, 전 세계를 연결하는 전략적 파트너",

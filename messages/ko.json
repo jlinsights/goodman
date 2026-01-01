@@ -83,7 +83,10 @@
     "namePlaceholder": "성함",
     "emailPlaceholder": "이메일",
     "messagePlaceholder": "메시지",
-    "sendMessage": "메시지 보내기"
+    "sendMessage": "메시지 보내기",
+    "sending": "전송 중...",
+    "successMessage": "✓ 메시지가 성공적으로 전송되었습니다! 곧 연락드리겠습니다.",
+    "errorMessage": "✗ 메시지 전송에 실패했습니다. 다시 시도하시거나 직접 연락 주시기 바랍니다."
   },
   "footer": {
     "tagline": "GOODMAN GLS - 대한민국을 넘어, 전 세계를 연결하는 전략적 파트너",

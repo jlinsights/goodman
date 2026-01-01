@@ -92,40 +92,40 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-linear-to-b from-transparent via-transparent to-[#0A2463] z-1"></div>
 
       {/* Content */}
-      <div className="relative z-10 container h-full flex flex-col justify-center items-center text-center text-white px-4">
+      <div className="relative z-10 container h-full flex flex-col justify-center items-center text-center text-white px-4 py-8 md:py-0">
         <div className="animate-fade-in-up">
-          <h1 className="text-white mb-4 md:mb-6">
+          <h1 className="display-serif text-white mb-4 md:mb-6 text-4xl md:text-7xl lg:text-8xl">
             {t('headline')}
           </h1>
-          <p className="text-base md:text-xl lg:text-2xl mb-3 md:mb-4 max-w-3xl mx-auto font-light text-gray-100">
+          <p className="text-base md:text-2xl lg:text-3xl mb-3 md:mb-6 max-w-3xl mx-auto font-light text-gray-100">
             {t('subheadline')}
           </p>
-          <p className="text-sm md:text-base lg:text-lg mb-8 md:mb-10 max-w-2xl mx-auto text-gray-300">
+          <p className="text-sm md:text-lg lg:text-xl mb-8 md:mb-12 max-w-2xl mx-auto text-gray-300">
             {t('description')}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center">
-            <Link href="#contact" className="btn btn-primary w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 text-base md:text-lg font-semibold">
+          <div className="flex flex-col sm:flex-row gap-3 md:gap-5 justify-center items-center">
+            <Link href="#contact" className="btn btn-primary btn-large w-full sm:w-auto">
               {t('ctaPrimary')}
             </Link>
-            <Link href="#partner-hub" className="btn btn-outline w-full sm:w-auto px-6 py-3 md:px-8 md:py-4 text-base md:text-lg font-semibold">
+            <Link href="/partner-hub" className="btn btn-outline btn-large w-full sm:w-auto">
               {t('ctaSecondary')}
             </Link>
           </div>
 
           {/* Stats */}
-          <div className="mt-10 md:mt-16 grid grid-cols-3 gap-4 md:gap-8 max-w-2xl mx-auto">
-            <div>
-              <div className="text-2xl md:text-4xl font-bold text-accent-foreground">20+</div>
-              <div className="text-xs md:text-sm text-gray-300 mt-1">{t('stats.years')}</div>
+          <div className="mt-10 md:mt-20 grid grid-cols-3 gap-4 md:gap-12 max-w-3xl mx-auto">
+            <div className="hover-lift flex flex-col items-center">
+              <div className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-1 md:mb-2">20+</div>
+              <div className="text-xs md:text-base text-gray-300">Years of Excellence</div>
             </div>
-            <div>
-              <div className="text-2xl md:text-4xl font-bold text-accent-foreground">50+</div>
-              <div className="text-xs md:text-sm text-gray-300 mt-1">{t('stats.countries')}</div>
+            <div className="hover-lift flex flex-col items-center">
+              <div className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-1 md:mb-2">50+</div>
+              <div className="text-xs md:text-base text-gray-300">Global Network</div>
             </div>
-            <div>
-              <div className="text-2xl md:text-4xl font-bold text-accent-foreground">10K+</div>
-              <div className="text-xs md:text-sm text-gray-300 mt-1">{t('stats.shipments')}</div>
+            <div className="hover-lift flex flex-col items-center">
+              <div className="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-1 md:mb-2">10K+</div>
+              <div className="text-xs md:text-base text-gray-300">Annual Shipments</div>
             </div>
           </div>
         </div>
