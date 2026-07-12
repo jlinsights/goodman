@@ -1,1 +1,1 @@
-🔧 fix(deploy): vercel.json `|| true` 마스킹 제거 — Vercel preview 빌드 검증 통과(10/10 prerender), 빌드 게이트 fail-fast 복원 + CLAUDE.md 배포 문서 정정(스코프 goodman-ksways·CLI 수동 배포·build note)
+📁 chore(pdca): goodman-gls-masking-removal archive — 문서 4종 docs/archive/2026-07/ 이관(Match 98%), _INDEX.md 생성, .bkit-memory phase=archived
