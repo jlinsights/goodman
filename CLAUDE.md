@@ -27,20 +27,20 @@ npm run test:run     # Vitest (CI)
 npm run build        # Production build
 ```
 
-> **Build note**: `vercel.json` 의 `buildCommand` 에 `|| true` 마스킹이 남아 있음.
-> Next 16 + React 19 prerender 자체 버그 (`/_global-error` useContext null) 회피 — Next 16.3 stable / React 19.3 unblock 까지 유지.
-> 상세: `docs/archive/2026-05/goodman-gls-prerender-debt/`.
+> **Build note**: `vercel.json` 의 `|| true` 마스킹은 **제거됨** (2026-07-12, Vercel preview 빌드 검증 후 — Vercel linux+Node 24 에서 마스킹 없이 통과).
+> 단, **로컬 macOS `npm run build` 는 여전히 실패** — Next 16 + React 19 prerender 버그 (`/_global-error` useContext null), Node 22·24 모두 재현 (Node 버전 무관 반증 완료). 로컬 빌드 검증은 Vercel preview 배포로 대체. Next 16.3 stable 출시 시 재시도.
+> 향후 Vercel 빌드가 upstream 사유로 깨지면 `"next build || true"` 임시 재마스킹 가능. 상세: `docs/archive/2026-05/goodman-gls-prerender-debt/`.
 
 ## Deploy Configuration
 
 - Platform: Vercel
-- Vercel project dashboard: https://vercel.com/goodman-jways/goodman-gls
-- Deploy workflow: automatic on push to `main`
+- Vercel project dashboard: https://vercel.com/goodman-ksways/goodman-gls (팀 개명: goodman-jways → goodman-ksways, 2026-07 KS Ways 리브랜딩)
+- Deploy workflow: **CLI 수동 배포** — `vercel --prod --scope goodman-ksways` (git push 자동배포는 goodmangls org 이전 후 미복구 — 별도 debt)
 - Git remote used for source updates: https://github.com/goodmangls/goodman.git
 - Production app origin for `/api/contact` allowlist: https://goodman-gls.vercel.app
 - Health check: poll production app origin unless a custom domain is introduced
 
-> Do not confuse the Vercel dashboard URL (`vercel.com/goodman-jways/goodman-gls`) with the public app origin (`goodman-gls.vercel.app`). `ALLOWED_ORIGINS` must use the public app origin, not the dashboard URL.
+> Do not confuse the Vercel dashboard URL (`vercel.com/goodman-ksways/goodman-gls`) with the public app origin (`goodman-gls.vercel.app`). `ALLOWED_ORIGINS` must use the public app origin, not the dashboard URL.
 
 ## Tech Stack
 
@@ -245,11 +245,11 @@ CONTACT_EMAIL_TO=         # Rails contact recipient (레거시)
 | `src/app/globals.css` | Tailwind v4 `@theme` 토큰 — DESIGN.md 와 동기 |
 | `src/app/page.tsx` | 홈 (Hero → Trust → Stats → WhyGSSA → GSA → Services → Company → Network → Partner → Contact → Footer) |
 | `src/app/api/contact/route.ts` | Contact 폼 백엔드 (Resend) + api-guards 적용 |
-| `src/app/global-error.tsx` | 전역 에러 (prerender-debt 관련 — vercel.json 마스킹 유지) |
+| `src/app/global-error.tsx` | 전역 에러 (prerender-debt 관련 — 로컬 macOS 빌드만 영향, Vercel 빌드는 통과) |
 | `src/components/Providers.tsx` | ThemeProvider (next-themes) + LanguageProvider |
 | `src/components/Navigation.tsx` | 헤더 / 모바일 메뉴 / 토글 |
 | `src/components/ContactSection.tsx` | Contact UI (RHF + Zod) |
 | `src/contexts/LanguageContext.tsx` | i18n 컨텍스트 |
 | `src/lib/api-guards.ts` | Origin/Referer + IP sliding-window rate limit |
 | `src/lib/validations/contact.ts` | Contact Zod schema |
-| `vercel.json` | `buildCommand "next build \|\| true"` (prerender-debt 마스킹, Next 16.3 stable 까지 유지) |
+| `vercel.json` | `buildCommand "next build"` (마스킹 제거 2026-07-12 — Vercel 빌드 게이트 복원, Quick Start Build note 참조) |

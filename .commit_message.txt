@@ -1,1 +1,1 @@
-📝 docs(copy): copy.md 종합물류 전환 반영 — positioning/Hero/§ 갱신(2026-06-01 옵션 B), GSSA→specialized capability 강등 표기
+🔧 fix(deploy): vercel.json `|| true` 마스킹 제거 — Vercel preview 빌드 검증 통과(10/10 prerender), 빌드 게이트 fail-fast 복원 + CLAUDE.md 배포 문서 정정(스코프 goodman-ksways·CLI 수동 배포·build note)
